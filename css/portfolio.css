@@ -41,9 +41,14 @@ nav li{
 nav li a{
     color: black;
 }
+a {
+    color: white;
+}
+a:hover{
+    color:red;
+}
 nav li a:hover{
     color:red;
-    background-color: red;
 }
 
 body{
@@ -52,10 +57,5 @@ body{
 }
 p {
     padding-top:40px;
+    padding-bottom:40px;
 }
-img{
-    width: 100%;
-    height:auto;
-    padding: 40px;
-}
-
